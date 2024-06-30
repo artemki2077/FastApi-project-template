@@ -7,7 +7,8 @@ it is constantly inconvenient to create a project in pycharm and re-create folde
 # Installing
 
 ```
-git clone https://github.com/artemki2077/FastApi-project-template.git
+git clone https://github.com/artemki2077/FastApi-project-template.git project_name
+cd project_name
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
